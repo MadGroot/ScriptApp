@@ -1,0 +1,29 @@
+.box {
+    text-align: center;
+    margin-top: 50px;
+}
+.Inp {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+.Btn {
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid lightgray;
+}
+.Btn:hover {
+    opacity: 30%;
+}
+.Btn:active {
+    color: red;
+}
+#res {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
