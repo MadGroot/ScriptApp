@@ -1,0 +1,26 @@
+.accordion {
+    /* border: 1px solid rgb(77, 77, 77); */
+    width: calc(70% - 50px);
+    margin: 0 auto;
+}
+.accordionHeader {
+    padding: 15px;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    cursor: pointer;
+    background: rgb(153, 153, 153);
+    color: #ffd700;
+    border-radius: 5px;
+    font-size: 22px;
+}
+.accordionBody {
+    display: none;
+    padding: 15px;
+    border-bottom: 1px solid rgb(77, 77, 77);
+    border-radius: 5px;
+}
+.accordionBody.active {
+    display: block;
+}
+img {
+    width: 500px;
+}
