@@ -86,3 +86,31 @@
     color: #f4780d;
     font-size: 25px;
 }
+
+
+
+
+
+/* second */
+
+/* 
+.container {
+    padding-inline: 15px;
+}
+
+.card-weather {
+    padding: 15px;
+    background-color: rgb(22, 0, 222);
+    border-radius: 15px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 15px;
+    background-size: 80px;
+    box-shadow: 10px 10px 10px #0000004a;
+}
+
+.card-weather > div {
+    display: flex;
+    justify-content: space-between;
+} */

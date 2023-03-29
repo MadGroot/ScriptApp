@@ -10,7 +10,7 @@ function convertion(val)
     return (val - 273).toFixed(2)
 }
 
-btn.addEventListener('click', function())
+btn.addEventListener('click', function()
 {
   fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputval.value+'&appid='+apik)
   .then(res => res.json())
@@ -28,4 +28,27 @@ btn.addEventListener('click', function())
     wind.innerHTML = `Wind Speed: <span>${wndspd} km/h<span>`
 
   })
-}
+})
+
+
+
+
+
+// second 
+
+
+
+
+// // api endpoint https://weatherdbi.herokuapp.com/data/weather/tbilisi
+// const tempNumber = document.querySelector('.temp-number');
+// const comment = document.querySelector('.comment');
+// const cardWeather = document.querySelector('.card-weather');
+
+// const getWeather = async () => {
+//     const { currentConditions } = await fetch('https://weatherdbi.herokuapp.com/data/weather/tbilisi').then(_ => _.json());
+//     tempNumber.innerText = currentConditions.temp.c;
+//     comment.innerText = currentConditions.comment;
+//     cardWeather.style.backgroundImage = `url(${currentConditions.iconURL})`;
+// }
+
+// getWeather();
